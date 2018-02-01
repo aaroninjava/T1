@@ -123,7 +123,7 @@
                     android:layout_weight="1"
                     android:background="@android:color/holo_blue_bright"
                     android:clickable="true"
-                    android:text="波動率"
+                    android:text="@string/Vol"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
             </LinearLayout>
@@ -195,7 +195,7 @@
                     android:layout_weight="1"
                     android:background="@android:color/holo_blue_bright"
                     android:clickable="true"
-                    android:text="到期天數"
+                    android:text="@string/daysOut"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
             </LinearLayout>
@@ -267,7 +267,7 @@
                     android:layout_weight="1"
                     android:background="@android:color/holo_blue_bright"
                     android:clickable="true"
-                    android:text="履約價"
+                    android:text="@string/Strike"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
             </LinearLayout>
@@ -438,5 +438,13 @@
         </LinearLayout>
 
     </LinearLayout>
+
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="445dp" />
 
 </android.support.constraint.ConstraintLayout>
